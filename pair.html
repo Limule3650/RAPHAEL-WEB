@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="shortcut icon" type="image/x-icon" href="./img/PARKY-MD.jpg">
+  <link rel="shortcut icon" type="image/x-icon" href="./img/DEATH-RAPHAEL.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pair with Me</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -13,7 +13,7 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background-image: url("https://telegra.ph/file/9de0ab729f967730abbdd.jpg");
+      background-image: url("https://telegra.ph/file/7c4fb86c9575d9c0f4357.jpg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -162,10 +162,10 @@
       navigator.clipboard.writeText(text).then(() => {
         const copyElement = document.getElementById("copy");
         copyElement.innerText = "COPIED";
-        copyElement.style.color = "blue";
+        copyElement.style.color = "red";
         setTimeout(() => {
           copyElement.innerText = "CODE: " + text;
-          copyElement.style.color = "red";
+          copyElement.style.color = "blue";
         }, 500);
       });
     }
