@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.:: SHUNA_BUG-BOT ::.</title>
+  <meta name="theme-color" content="#f0a500">
+  <meta name="theme-color" content="#f0a500">
+  <meta name="description" content="Pairing session for SHUNA_BUG-BOT.">
+<meta name="author" content="Limule-Solitarus">
+<meta name="robots" content="all"> 
+<meta name="robots schedule" content="auto"> 
+<meta name="distribution" content="global"> 
+<meta name="googlebot" content="index,follow">
+<meta property="og:title" content=".:: SHUNA_BUG-BOT::."/>  
+<meta name="description" content=" [+] Pairing session for SHUNA_BUG-BOT [+] "> 
+<meta property="og:image" content="/bg.jpg">
+<link href="/style.css" rel="stylesheet">
+
+
+  <link rel="shortcut icon" href="/icone.jpg">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float');
+    @import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple');
+    @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Grenze+Gotisch:wght@900&family=Jolly+Lodger&family=New+Rocker&display=swap');
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      margin: 0;
+      background-image: url("https://iili.io/didFF1e.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      color: #f0f0f0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    header {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 50px
+    }
+
+    h1 {
+      /*font-family: 'Fire code', sans-serif;*/
+      font-family: 'New Rocker',cursive;
+      font-size: 3.2em;
+      color: Blue;
+      margin: 0;
+      text-shadow: 
+                2px 2px 0 #000, 
+                -2px -2px 0 #000, 
+                -2px 2px 0 #000, 
+                2px -2px 0 #000,
+                2px 0 0 #000, 
+                -2px 0 0 #000, 
+                0 2px 0 #000, 
+                0 -2px 0 #000;
+    }
+
+    h2 {
+      font-family: 'Fira Code', sans-serif;
+      font-size: 0.8em;
+      color: #d3d0c2;
+      margin: 5px 0 30px;
+      opacity: 0.8;
+    }
+
+    .btn {
+      --primary-color: #a9263e;
+      --secondary-color: #5a806c;
+      width: 180px;
+      padding: 0.6em 1.5em;
+      background-color: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(5px);
+      border-radius: 6px;
+      border: 1px solid var(--primary-color);
+      transition: 0.5s;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      z-index: 1;
+      font-weight: 500;
+      font-size: 15px;
+      font-family: 'Fira Code', monospace;
+      text-transform: uppercase;
+      color: var(--secondary-color);
+      margin-bottom: 15px;
+      top: -30px;
+      text-align: center;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;    
+    }
+
+    .btn::after, .btn::before {
+      content: '';
+      display: block;
+      height: 100%;
+      width: 100%;
+      transform: skew(90deg) translate(-50%, -50%);
+      position: absolute;
+      inset: 50%;
+      left: 25%;
+      z-index: -1;
+      transition: 0.5s ease-out;
+      background-color: var(--primary-color);
+    }
+
+    .btn::before {
+      top: -50%;
+      left: -25%;
+      transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+    }
+
+    .btn:hover::before {
+      transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+    }
+
+    .btn:hover::after {
+      transform: skew(45deg) translate(-50%, -50%);
+    }
+
+    .btn:hover {
+      /*color: var(--secondary-color);*/
+      color: black;
+      font-weight: 600;
+    }
+
+    .btn:active {
+      filter: brightness(0.7);
+      transform: scale(0.98);
+    }
+
+
+.btn:nth-of-type(1) {
+    animation: shrink 2.4s infinite 0s;
+}
+
+.btn:nth-of-type(2) {
+    animation: shrink 2.4s infinite 0.4s;
+}
+
+.btn:nth-of-type(3) {
+    animation: shrink 2.4s infinite 0.8s;
+}
+
+.btn:nth-of-type(4) {
+    animation: shrink 2.4s infinite 1.2s;
+}
+
+.btn:nth-of-type(5) {
+    animation: shrink 2.4s infinite 1.6s;
+}
+
+.btn:nth-of-type(6) {
+    animation: shrink 2.4s infinite 2s;
+}
+
+@keyframes shrink {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 0.8em;
+      color: #f0f0f0;
+    }
+
+.menu-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: transparent; /* Transparent background */
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.3s;
+  color: #a9263e; /* Orange color for the icon */
+  font-size: 24px;
+  padding: 10px;
+}
+
+.menu-btn:hover {
+  transform: scale(1.1);
+  color: blue; /* Slightly darker orange on hover */
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  color: #f0f0f0;
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.sidebar.show {
+  transform: translateX(0);
+}
+
+.sidebar.lock {
+  transform: translateX(0);
+}
+
+.sidebar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 2px dotted #047601;
+}
+
+.sidebar .profile-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  opacity: 0.9;
+  color: #d3d0c2;
+}
+
+.sidebar .bio {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8em;
+  color: blue;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+
+.sidebar .follow-btn {
+  width: 150px;
+  padding: 0.4em 1em;
+  background-color: blue;
+  border-radius: 6px;
+  border: 1px solid #a9263e;
+  transition: 0.3s;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Fira Code', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  opacity: 0.8;
+   background: linear-gradient(-45deg, 2f5c4f, #5a806c, #c14a5e, #773849);
+   background-size: 400% 400%;
+   animation: gradient 10s ease infinite;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@keyframes gradient {
+   0% {
+       background-position: 0% 50%;
+   }
+   50% {
+       background-position: 100% 50%;
+   }
+   100% {
+       background-position: 0% 50%;
+   }
+}
+
+
+.sidebar .follow-btn:hover {
+  color: red;
+}
+
+#love {
+ position: relative;
+ margin-top: 95px;
+text-align: center;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 0.9em;
+ color: #d3d0c2;
+}
+  </style>
+</head>
+<body>
+
+  <button onclick="window.open('/pair', '_self')" class="btn">Pair Code</button>
+  <button onclick="window.open('https://github.com/Limule3650', '_blank')" class="btn">GitHub</button>
+  <button onclick="window.open('https://youtube.com/@Darklimule', '_blank')" class="btn">YouTube</button>
+  <button onclick="window.open('https://t.me/darklimule', '_blank')" class="btn">Telegram</button>
+  <button onclick="window.open('https://www.instagram.com/@mikael_jordan?igsh=MXF3OHgzcnJsZzhqNQ==', '_blank')" class="btn">Instagram</button>
+
+</body>
+</html>
