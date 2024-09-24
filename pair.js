@@ -62,27 +62,25 @@ router.get('/', async (req, res) => {
                     });
 
                     await XeonBotInc.sendMessage(XeonBotInc.user.id, {
-                        text: `╭═════════════════════⊷
-┃✿︎┃DEATH RAPHAEL SESSION IS 
-┃✿︎┃SUCCESSFULLY
-┃✿︎┃CONNECTED ✅
-╰════════════════════⊷
-╭════════════════════════⊷
-┃Github: https://github.com/Limule3650/Death-Raphael-bug
+                        text: `╭═══════════════⊷
+┃✿︎┃𝑺𝑯𝑼𝑵𝑨 CONNECTED❤️
+╰═══════════════⊷
+╭═══════════════⊷
+┃Github: https://github.com/Limule3650/Shuna_bug-bot
 
-╰═══════════════════════⊷
-╭════════════════════════⊷
+╰═══════════════⊷
+╭═══════════════⊷
 ┃ WaGroup ☘︎ https://chat.whatsapp.com/Bph2Nt7qdqf1p1pQmkIy9U
 
-╰═══════════════════════⊷
-╭════════════════════════⊷
+╰═══════════════⊷
+╭═══════════════⊷
 ┃ WHATSAPP CHANNEL ➪https://whatsapp.com/channel/0029Vafhjw0IXnlonRAQMM2l
 
-╰═══════════════════════⊷
-╭═════════════════════════⊷
+╰═══════════════⊷
+╭═══════════════⊷
 ┃𝙵𝙾𝙻𝙻𝙾𝚆 𝙼𝚈 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙿𝙻𝙴𝙰𝚂𝙴
 ┃𝐖𝐚𝐧𝐭 𝐜𝐡𝐚𝐭 𝐰𝐢𝐭𝐡 𝐦𝐞? ☞︎︎︎ https://Wa.me//+237698581946 ☜︎︎︎
-╰════════════════════════⊷
+╰═══════════════⊷
 ©2025 *𝙻𝙸𝙼𝚄𝙻𝙴 𝚂𝙾𝙻𝙸𝚃𝙰𝚁𝚄𝚂*`
                     }, { quoted: xeonses });
 
